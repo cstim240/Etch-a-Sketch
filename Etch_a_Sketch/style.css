@@ -1,3 +1,9 @@
+/**
+    Author: Tim Supan
+    Program: The Odin Project - Foundations
+    Date: May 9, 2023
+ */
+
 .row, .column {
     width: 25px;
     height: 25px;
@@ -22,6 +28,10 @@ body {
     align-items: center;
     background-color: wheat;
     flex: 1 1 auto;
+}
+
+a {
+    color: green;
 }
 
 .mainDiv {

@@ -1,7 +1,7 @@
 /**
     Author: Tim Supan
     Program: The Odin Project - Foundations
-    Date: May 8, 2023
+    Date: May 9, 2023
  */
 
 let currentGridCount = 16;
@@ -66,14 +66,6 @@ function hoverEffects(column){
     column.addEventListener("click", () => {
         column.classList.add("hovered");
     });
-}
-
-function randomColours(){
-    
-}
-
-function generateRandomColour(){
-
 }
 
 function clearGrid(){
