@@ -13,9 +13,28 @@
         <link rel="stylesheet" href="./style.css" />
     </head>
 
-    <body onload="makeGrid()" class="mainBody">
-        <div>
-            <button onclick="setup()">New Grid</button>
+    <body onload="makeGrid()">
+        <div class="headers">
+            <h1>Etch-a-Sketch!</h1>
+            <p> Hover over the boxes using your cursor to draw! </p>
         </div>
+
+        <div class="buttonBar">
+            <button onclick="setup()">Make New Grid</button>
+            <button onclick="randomColours()"> Random Colours!</button>
+            <button onclick="clearGrid()">Clear</button>
+        </div>
+
+        <div class="footer">
+            <p>By: Tim Supan</p>
+            <a href="https://github.com/cstim240"> Visit my GitHub! </a>
+        </div>
+
+        <div>
+            <div class="mainDiv"></div>
+        </div>
+
+        
+
     </body>
 </html>

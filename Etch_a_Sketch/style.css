@@ -1,13 +1,42 @@
 .row, .column {
     width: 25px;
     height: 25px;
-    border: 0.5px solid black;
+    border: 0.25px solid black;
 }
 
-.mainBody {
+.headers {
+    text-align: center;
+}
+
+.buttonBar {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: wheat;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    flex: 1 1 auto;
+}
+
+.mainDiv {
     display: flex;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -15px;
+    font-size: 15px;
+
+}
 .hovered {
     background-color: black;
 }
