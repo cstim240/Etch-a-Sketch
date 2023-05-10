@@ -1,7 +1,7 @@
 # Etch-a-Sketch
 Part of The Odin Project - Foundations 
 
-Website link:
+Website link: https://cstim240.github.io/Etch-a-Sketch/
 
 Use your mouse to hover over the squares, this will colour them in!
 Click on clear to erase everything
