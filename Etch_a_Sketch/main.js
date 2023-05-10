@@ -27,6 +27,12 @@ function makeGrid(){
             body.appendChild(row);
         }    
     }
-
-
 }
+
+function setup(){
+    const sqCount = prompt("How many squares per side would you like in the grid?");
+    console.log(sqCount);
+    clearPrev(); //function to clear all previously made nodes
+}
+
+
